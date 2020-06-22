@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     {% load static %}
+
+    <!-- Bootstrap -->
+    <link href="{% static 'jorqueraWebApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+     <!-- Fonts -->
+    
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+     
+
+    <!-- Styles -->
+   
+    <link href="{% static "jorqueraWebApp/css/gestion.css" %}" rel="stylesheet">
+ 
+    <title>Antecedentes Personales</title>
+
+
+    
+{% include 'padres/cabeza.html' %} {% comment %}  hereda de cabeza.html {% endcomment %}
+</head>
+<body>
+
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Datos Personales</span>                
+                <p class="mb-0">cm.jorquerag@gmail.com</p>
+                
+              </h2>
+              <p class="mb-0">16.423.446-0</p>
+              <p class="mb-0">Chileno</p>
+              <p class="mb-0">Soltero</p>
+              <p class="mb-0">Enero 10 de 1986</p>
+              <p class="mb-0">Soltero</p>
+              <p class="mb-0">Vicuña Rozas 5500 / Quinta Normal</p>
+              <p class="mb-0">B-D-A2-A4-A5</p>
+              <p class="mb-0">+ 6 9 88302735</p>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+</body>
+{% include 'padres/pie.html' %}
+</html>

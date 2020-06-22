@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     {% load static %}
+     <!-- Bootstrap -->
+    <link href="{% static 'jorqueraWebApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+     <!-- Fonts -->
+    
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+     
+
+    <!-- Styles -->
+   
+    <link href="{% static "jorqueraWebApp/css/gestion.css" %}" rel="stylesheet">
+ 
+    <title>Antecedentes Academicos</title>
+
+{% include "padres/cabeza.html" %} 
+</head>
+<body>
+  
+      
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Formacion Academica</span>                
+                <p class="mb-0">Analista Programador</p>                
+              </h2>
+              
+              <p class="mb-0">Educacion Superior: Instituto Prfesional Duoc Uc </p>
+              <p class="mb-0">Enseñanza Media :Liceo Industrial Electrotecnia</p>
+              <p class="mb-0">Enseñanza Basica: Escuela Jose Joaquin Prieto SII</p>
+              <p class="mb-0">TOIC : Rendido</p>
+                         
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</body>
+{% include 'padres/pie.html' %}
+</html>
