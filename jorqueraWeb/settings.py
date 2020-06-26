@@ -76,8 +76,17 @@ WSGI_APPLICATION = 'jorqueraWeb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),   BD POR DEFECTO "SQLITE3"
+
+        # CONECCION A POSTGRESQL
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',        
+        'NAME': 'jorqueraWeb_django',  # NUEVA BD
+        'USER': 'postgres',
+        'PASSWORD': 'analista1986',
+        'HOST' : 'localhost', 
+        'DATABASE_PORT' : '5432' ,
     }
 }
 
