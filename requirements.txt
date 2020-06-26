@@ -1,5 +1,4 @@
 cymysql==0.9.14
-Django==1.11.5
 django-cymysql==3.0.0
 pytz==2020.1
 whitenoise ==5.1.0
