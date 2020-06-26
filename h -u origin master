@@ -1,0 +1,66 @@
+[33mcommit 2fcd3b41fcfd62fa364d015b4dce97a9ebfd527e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Thu Jun 25 22:44:12 2020 -0400
+
+    modifique la coma de rURL / JORQUERAWEB
+
+[33mcommit b1e7b9dc5c1c8a9c7f1077404e119aaecf7e35dd[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Thu Jun 25 22:30:35 2020 -0400
+
+    Error de las migraciones
+
+[33mcommit c19de32cd2910473dfb0db588980ddfeea09b986[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Thu Jun 25 21:59:09 2020 -0400
+
+    model y conexion LISTOS
+
+[33mcommit b6cf6342940f2ddf9b2f48aaaf15c6329f056ac3[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Wed Jun 24 23:49:14 2020 -0400
+
+    'ACTUALIZACION''
+
+[33mcommit 8acf7de03c5560b122e31b908222af2f4ecd4656[m
+Merge: 71383af 3bbbf26
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Wed Jun 24 22:37:40 2020 -0400
+
+    Merge branch 'master' of https://github.com/cmjorquera/Proyecto-Django
+
+[33mcommit 71383affdb9bab38ebd2df4c0022a25114730977[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Wed Jun 24 19:40:38 2020 -0400
+
+    subi un archivo el archivo requerimientos
+
+[33mcommit 3bbbf26de4ee1c9ec51e99888417d7f8b8543d6d[m
+Author: Cristian Jorquera <50181813+cmjorquera@users.noreply.github.com>
+Date:   Mon Jun 22 18:59:36 2020 -0400
+
+    Create README.md
+
+[33mcommit ccfb0aa99c9d5b7a9f2260668fb1df71d60fa3bf[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Mon Jun 22 18:09:43 2020 -0400
+
+    agrege un pantallazo
+
+[33mcommit 1e7acdd71389b1c79fcb54ee78c42a485bb62447[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Mon Jun 22 14:49:39 2020 -0400
+
+    he creado mi primera carpeta ignere
+
+[33mcommit ef2f83dc2d7f248e37b342296df2b73d8260f2fd[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Mon Jun 22 14:38:42 2020 -0400
+
+     1er cambio ---contacto //contactoS
+
+[33mcommit e7acdcb91b3755d5fd875ddef4caf51bac31a44e[m
+Author: Cristian Jorquera <cm.jorquerag@gmail.com>
+Date:   Mon Jun 22 14:22:21 2020 -0400
+
+    mi primer commit
