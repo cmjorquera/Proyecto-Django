@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include        # include para incluir las urls de APP
+from django.urls import path, include     # include para incluir las urls de APP
 
 
 ##################### IMPORTACIONES IMPORTANTE #####################
@@ -26,7 +26,7 @@ from django.urls import path, include        # include para incluir las urls de 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('',include ('jorqueraWebApp.urls'))  ,                # incluyo las url de mi APP a ocupar "jorqueraWebApp"
+    path('',include ('jorqueraWebApp.urls'),)             # incluyo las url de mi APP a ocupar "jorqueraWebApp"
     # path('home/', fun_home),                                                        # otra forma
     # path('home/', vistas.fun_home),                                                   # pagina 1 
     # path('antecedentes_personales/', vistas.fun_antecedentes_personales),             # pagina 2
