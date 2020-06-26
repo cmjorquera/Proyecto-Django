@@ -27,7 +27,7 @@ from django.urls import include     # include para incluir las urls de APP
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include ('jorqueraWebApp.urls'))             # incluyo las url de mi APP a ocupar "jorqueraWebApp"
+    path('/',include ('jorqueraWebApp.urls')),           # incluyo las url de mi APP a ocupar "jorqueraWebApp"
     # path('home/', fun_home),                                                        # otra forma
     # path('home/', vistas.fun_home),                                                   # pagina 1 
     # path('antecedentes_personales/', vistas.fun_antecedentes_personales),             # pagina 2
